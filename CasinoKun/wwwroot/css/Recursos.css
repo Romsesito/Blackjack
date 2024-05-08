@@ -21,5 +21,12 @@
     background-position: center; /* Centra la imagen en el contenedor */
 }
 
+.btn-inicio {
+    background-color: #d41c1c;
+    color: #ffffff;
+}
 
+.btn-custom:hover {
+    background-color: #000000 !important;
+    color: #ffffff !important; 
 }
