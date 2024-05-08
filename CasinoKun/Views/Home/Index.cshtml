@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>BlackJack</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/css/Recursos.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <style>
+        body {
+            background-image: url('../img/fondo.png');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+
+
+    </head>
+
+
+    <body class="fondopicas">
+        <main class="flex-shrink-0">
+            <!-- Header-->
+            <header class="py-5">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-5">
+                            <!-- Header text content-->
+                            <div class="text-center text-xxl-start">
+                            <div class="badge Pr"><div class="text-uppercase">Poker &middot; Tragaperras &middot; Ruleta</div></div>
+                              
+                            <h1 class="display-3 fw-bolder mb-5"><span class="Pr">Una experiencia única!</span></h1>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="@Url.Action("Register", "Users")">Registrarse</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-7">
+                            <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                                <div class="profile bg-gradient-fondo">
+                                <img class="profile-img" src="~/img/blackjack2.png" alt="Img" />
+                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+            <!-- Seccion de info-->
+            <section class="bg-solido py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                            <h2 class="display-5 fw-bolder Pr">Acerca de nosotros</h2>
+                                
+                            <p class="Pr">En nuestro casino, nos enorgullecemos de ofrecer una experiencia de juego de primera clase. Con una amplia selección de juegos, bonificaciones generosas y un ambiente seguro, estamos aquí para brindarte la mejor experiencia de casino en línea</p>
+                            <p class="Pr">Aumenta tus oportunidades de ganar con nuestras increíbles bonificaciones y promociones! Desde bonos de bienvenida hasta tiradas gratis y reembolsos, siempre hay algo especial esperándote en nuestro casino.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Seccion de info-->
+
+        <section class="showcase py-5">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/img/1.png')"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2 class="Pr">Póker</h2>
+                        <p class="Pr">El juego de póker más popular del mundo, donde los jugadores compiten por la mejor mano utilizando sus cartas y las comunes en la mesa. Es fácil de aprender pero difícil de dominar, lo que lo hace emocionante para jugadores de todos los niveles.</p>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('/img/2.png')"></div>
+                    <div class="col-lg-6 my-auto showcase-text">
+                        <h2 class="Pr">Tragamonedas</h2>
+                        <p class="Pr">Una tragamonedas progresiva famosa por sus grandes premios. Con temática de safari africano, ofrece múltiples oportunidades para ganar jackpots millonarios.</p>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/img/3.png')"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2 class="Pr">Ruleta</h2>
+                        <p class="Pr">Con números del 1 al 36 y un solo cero. Los jugadores pueden realizar una variedad de apuestas, desde apuestas simples a números individuales hasta apuestas complejas en combinaciones de números.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0"></div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacidad</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Terminos</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

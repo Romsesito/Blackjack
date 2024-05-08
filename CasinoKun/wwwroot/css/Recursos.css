@@ -1,0 +1,25 @@
+﻿body {
+    .bg-gradient-fondos
+
+{
+    background-image: linear-gradient(to right, #, #d41c1c);
+}
+
+
+.bg-solido {
+    background-color: #841120;
+    border-radius: 40px;
+}
+
+.Pr {
+    color: #ffdede;
+}
+
+.fondopicas {
+    background-image: url('~/img/fondo.png');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+}
+
+
+}
